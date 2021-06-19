@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<head>
+    <title>Numbers to Text</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+</head>
+
+<body>
+    <div class="content">
+        <form id="form">
+            <label for="numInput">Number to Convert:</label>
+            <input type="number" id="numInput" name="numInput"><br><br>
+            <input type="submit" value="Convert">
+        </form>
+
+
+        <p id="changedNum">Converted Number: </p>
+    </div>
+    
+</body>
